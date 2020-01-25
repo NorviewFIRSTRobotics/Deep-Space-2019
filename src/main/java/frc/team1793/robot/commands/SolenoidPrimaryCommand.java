@@ -4,11 +4,11 @@ import org.strongback.command.Command;
 import org.strongback.components.Solenoid;
 
 
-public class SolenoidRetractCommand extends Command {
+public class SolenoidPrimaryCommand extends Command {
 
     private final Solenoid solenoid;
 
-    public SolenoidRetractCommand(Solenoid solenoid) {
+    public SolenoidPrimaryCommand(Solenoid solenoid) {
         this.solenoid = solenoid;
     }
 

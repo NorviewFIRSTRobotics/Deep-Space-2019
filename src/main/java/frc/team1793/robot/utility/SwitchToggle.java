@@ -8,7 +8,7 @@ import org.strongback.command.Command;
  * Toggle between two commands in press of a button
  */
 public class SwitchToggle {
-    private boolean running;
+    protected boolean running;
     private final Command start;
     private final Command stop;
 
